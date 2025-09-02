@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mar_man
+        {
+            margin-left: 25%;
+            margin-right: 25%;;
+        }
+        .text_man
+        {
+            width: 100%;
+            height: 40px;
+        }
+        .btn 
+        {
+            border-style: solid;
+            width: 120px;
+            height: 40px;
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+            border-width: 0px;
+            border-radius: 25px;
+        }
+          .btn1 
+        {
+            border-style: solid;
+            width: 120px;
+            height: 40px;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border-width: 0px;
+            border-radius: 25px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="mar_man">
+        <input type="text" name="" class="text_man" id="unit" placeholder="Enter total unit number : ?">
+        <br>
+        <br>
+        <input type="submit" value="Calculate Bill" id="btn" class="btn" onclick="calUnit()">
+        <br>
+        <br>
+        <div id="id1"></div>
+        <div id="id2"></div>
+        <div id="id3"></div>
+        <div id="id4"></div>
+        <div id="id5"></div>
+        <div id="id6"></div>
+        <div id="id7"></div>
+        <br>
+        <br>
+        <input type="submit" value="Print Bill" id="btn1" class="btn1" onclick="printBill()">
+        <br>
+        <br>
+        
+    </div>
+    <script src="unit.js"></script>
+</body>
+</html>
